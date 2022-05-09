@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">HealthApp</string>
+    <string name="divider">/</string>
+    <string name="heart_rate">Пульс</string>
+    <string name="pressure_high">Верхнее давление</string>
+    <string name="pressure_low">Нижнее давление</string>
+    <string name="add">добавить</string>
+    <string name="error_message">Неверный ввод</string>
 </resources>
