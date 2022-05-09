@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_pressure_high"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/main_margin"
+        android:layout_marginTop="@dimen/main_margin"
+        android:hint="@string/pressure_high"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_pressure_low"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/main_margin"
+        android:layout_marginTop="@dimen/main_margin"
+        android:hint="@string/pressure_low"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_heart_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/main_margin"
+        android:layout_marginTop="@dimen/main_margin"
+        android:hint="@string/heart_rate"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/main_margin"
+        android:layout_marginTop="@dimen/main_margin"
+        android:layout_marginBottom="@dimen/main_margin"
+        android:text="@string/add" />
+
+</LinearLayout>
